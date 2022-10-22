@@ -1,0 +1,87 @@
+.container{
+    width: 1200px;
+    margin:0 auto;
+    }
+.topbar{
+    height: 28px;
+    background-color: #101010;
+ }
+ .topbar .container{
+     height: 28px;
+     background-color: red;
+ }
+ .topbar .container p{
+     height: 28px;
+     line-height: 28px;
+     color: #f1f1f1;
+ }
+ .topbar .container p:first-child{
+     text-indent: 210px;
+ }
+ .topbar .container p:first-child a{
+     color: #fff;
+     text-decoration: none;
+ }
+ .topbar .container p:nth-child(2){
+     margin-right: 10px;
+ }
+ .topbar .container p:nth-child(2) a:not(.login){
+     color: #ff6700;
+ }
+ .topbar .container p:nth-child(2) .login{
+     color: #fff;
+ }
+ .topbar .container p:nth-child(2) .title, .topbar .container p:nth-child(2) .register {
+     color: #ff6700;
+ }
+ .topbar .container p:nth-child(2) .login{
+     color: #fff;
+ }
+.nav{
+    height: 85px;
+    background-color: #ccc;
+}
+.nav .search-shopcart-order{
+	height: 35px;
+	color: pink;
+}
+.nav .category-menu{
+	height: 30px;
+	color: red;
+}
+.menu{
+    height: 500px;
+    background-color: #333;
+}
+.recommend{
+    height: 500px;
+    background-color: #ccc;
+}
+.ebooks{
+    height: 500px;
+    background-color: #333;
+}
+.clothes{
+    height: 500px;
+    background-color: #ccc;
+}
+.sport{
+    height: 500px;
+    background-color: #333;
+}
+.children-clothes{
+    height: 500px;
+    background-color: #ccc;
+}
+.daily{
+    height: 500px;
+    background-color: #333;
+}
+.promotion{
+    height: 500px;
+    background-color: #ccc;
+}
+.footer{
+    height: 500px;
+   background-color: #333;
+}
