@@ -1,15 +1,23 @@
-.clearfix::after{
+/* 清除浮动 */
+.clearfix::after {
     content: '';
     display: inline-block;
     height: 0;
     clear: both;
 }
-.fl{
+
+/* 左浮动 */
+.fl {
     float: left;
 }
-.fr{
+
+/* 右浮动 */
+.fr {
     float: right;
 }
-.container{
-    width:1200px
+
+/* 版心 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
 }
