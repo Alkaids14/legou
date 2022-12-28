@@ -6,7 +6,7 @@ $(function() {
 			//把三个类型的input分别先获取tags
 			var $theadInput = $('thead input[type=checkbox]'); //表头中的全选框 trunk
 			var $tbodyInputs = $('tbody input[type=checkbox]'); //表格中的每一行的选择框 
-			var $totalPriceInput = $('.allPrice input[type=checkbox]'); //计算总价中的全选框 code
+			var $totalPriceInput = $('.totalPrice input[type=checkbox]'); //计算总价中的全选框 code
 			/*全选*/
 			/*
 			1．给表头中的全选按钮 绑定点击事件 点击的时候 获取到它的选中状态（true／false）
