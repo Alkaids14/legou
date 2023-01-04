@@ -23,11 +23,11 @@ $(function() {
 	//给导航绑定点击事件
 	$('.ez-title ul li').on('mouseenter',function(){
 		//导航切换效果
-		$(this).addClass('active').siblings().removeClass('active')
+		$(this).addClass('active').siblings('li').removeClass('active')
 		//获取索引
 		var index = $(this).index();
 		//显示对应内容
-		$('.ez-banner').eq(index).show().siblings().hide()
+		$('.ez-banner').eq(index).show().siblings().hide();
 	})
 	/*换一批*/
 	//定一个索引
